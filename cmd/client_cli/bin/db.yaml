@@ -1,0 +1,53 @@
+datadbjson:
+    db:
+        - name: ll
+          server: ll
+          name_on_server: ll
+          port: ll
+          uid: f2d25d81-0453-4eef-92aa-598aabc44f55
+    property_db:
+        - name_user: aa
+          password_user: sdsss
+          start_block: ll
+          finish_block: ll
+          key_unlock: ll
+          massage: |-
+            Планируется техническое обслуживание базы с %s до %s
+
+            Для администратора:
+            Для того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите "1С:Предприятие" с параметрами:
+            ENTERPRISE /S"%s\%s"/CРазрешитьРаботуПользователей /UC<код разрешения>
+          block: false
+          uid: f2d25d81-0453-4eef-92aa-598aabc44f55
+services:
+    - name_server: 172.19.31.60
+      ip: 172.19.31.60
+      name_service: 1C:Enterprise 8.3 Server Agent (x86-64)
+      uid: 28c7b205-dee0-4ad2-9c6a-5c726ef52b0b
+      user: ""
+      password: Z7MaRHNGevCI8XNOZdlr4ChF4uhlLrYKajQWKHX_y1d3LS4v8Pt6f6_dsjhciqnp8S-X3MBbJdckwDC2zHUTKKeBo7-ApsUG
+      sql_servers:
+        - description: sql
+          name: sql
+          user: "11"
+          password: M_oMd5eS_wcSifFUJxQ9XMhbiyMOurQCxaUpsD5YjO55YMblXdLoGykwjfQ=
+settings:
+    pathexe1c: ""
+    nameuser: qq
+    passworduser: IZdJT50HDLqSI2lyMuZ7KkMXIng=
+    startblock: ""
+    finishblock: ""
+    keyunlock: ""
+    massage: |-
+        Планируется техническое обслуживание базы с %s до %s
+
+        Для администратора:
+        Для того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите "1С:Предприятие" с параметрами:
+        ENTERPRISE /S"%s\%s"/CРазрешитьРаботуПользователей /UC<код разрешения>
+    pathstorage: ""
+    pathcopy: ""
+    httpport: ""
+    intervalservice: ""
+    killprocesskb: ""
+    controlserver: ""
+basesdoublecontrol: []
