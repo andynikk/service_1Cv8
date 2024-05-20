@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+package handlers;
+
+import "google/protobuf/empty.proto";
+
+option go_package = "Service_1Cv8/internal/pb";
+
+service MetricCollector {
+	rpc PrintMsg(RequestMsg) returns (google.protobuf.Empty) {}
+}
+
+message RequestMsg {
+	string msg = 1;
+}

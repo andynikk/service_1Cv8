@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d56967c-52bf-408f-861d-1f85432ccf9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/1cv8/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/1cv8/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/answers/answers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/charset/cp866.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/charm/charm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/form_add_db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/form_add_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/form_add_sqlsrv.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/form_block.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/form_copy_file.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/form_login.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/form_main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/form_res_telegram.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/form_server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/form_server_db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/form_settings.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/form_sql_db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/form_telegram_msg.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/forms_exchange/basic.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/forms_exchange/form_queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/forms_exchange/forms.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/forms_exchange/key_token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/forms_exchange/list_queues.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/forms_exchange/list_tokens.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/forms_exchange/websocket.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cli/styles/styles.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/compression/gzip.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/constants/const.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/constants/errs/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cryptography/encryption.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/cryptography/hash.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/dbbolt/bolt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/encryption/encryption.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/environment/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/exchange/events.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/exchange/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/files/files.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/handlers/api.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/handlers/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/handlers/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/handlers/websocket.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/iron/hdd.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/iron/mac_adress.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/midware/midware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/mssql/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/mssql/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/postgresql/database.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/postgresql/model/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/postgresql/model/default.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/postgresql/model/general.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/postgresql/model/setting.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/postgresql/model/srv.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/postgresql/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/postgresql/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/proto/server.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/repository/datainterface/settings.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/repository/json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/repository/pudge.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/repository/storedata.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/repository/token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/repository/yaml.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/telegram/tg.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/token/token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internal/winsys/winsys.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service_1Cv8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/clien_exchange/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/client_cli/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/server/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/server_grps/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/go/go1.21.4" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/go/pkg/mod/github.com/charmbracelet/bubbles@v0.15.0/spinner/spinner.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/github.com/charmbracelet/bubbles@v0.15.0/textarea/textarea.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/github.com/charmbracelet/bubbles@v0.15.0/textinput/textinput.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/github.com/charmbracelet/bubbletea@v0.23.2/tea.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/internal/1cv8/server.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/internal/cli/charm/charm.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/internal/cli/client.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/internal/cli/form_block.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/internal/cli/form_main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/internal/cli/form_server.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/internal/constants/const.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/internal/repository/storedata.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/internal/winsys/winsys.go" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2N6FFhw9enYS87Ypz98RabO1SgO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/OtherDev/GO/service_1Cv8/internal/cli&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go.sdk&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OtherDev\GO\service_1Cv8\internal\cli" />
+      <recent name="E:\OtherDev\GO\service_1Cv8\internal\cli\styles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OtherDev\GO\service_1Cv8\internal\repository" />
+      <recent name="E:\OtherDev\GO\service_1Cv8\internal\cli\charm" />
+      <recent name="E:\OtherDev\GO\service_1Cv8\internal\cli" />
+      <recent name="E:\OtherDev\GO\service_1Cv8\internal\postgresql" />
+      <recent name="E:\OtherDev\GO\service_1Cv8\internal\cli\styles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build Service_1Cv8/cmd/clien_exchange">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="Service_1Cv8" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build Service_1Cv8/cmd/clien_exchange" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Service_1Cv8" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="Service_1Cv8/cmd/clien_exchange" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cmd/clien_exchange/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="regulations_1C" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="Service_1Cv8" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="Service_1Cv8/cmd/client_cli" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cmd/client_cli/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="Service_1Cv8" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="Service_1Cv8/cmd/server" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cmd/server/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="Service_1Cv8" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test Service_1Cv8/internal/cli" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Service_1Cv8" />
+      <working_directory value="$PROJECT_DIR$/internal/cli" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="Service_1Cv8/internal/cli" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build Service_1Cv8/cmd/clien_exchange" />
+      <item itemvalue="Go Build.server" />
+      <item itemvalue="Go Build.regulations_1C" />
+      <item itemvalue="Go Test.go test Service_1Cv8/internal/cli" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build Service_1Cv8/cmd/clien_exchange" />
+        <item itemvalue="Go Build.server" />
+        <item itemvalue="Go Build.regulations_1C" />
+        <item itemvalue="Go Test.go test Service_1Cv8/internal/cli" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d56967c-52bf-408f-861d-1f85432ccf9e" name="Changes" comment="" />
+      <created>1678976525918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678976525918</updated>
+      <workItem from="1678976528108" duration="449000" />
+      <workItem from="1678977100215" duration="28204000" />
+      <workItem from="1679066823122" duration="49759000" />
+      <workItem from="1679162659969" duration="10489000" />
+      <workItem from="1679214960730" duration="556000" />
+      <workItem from="1679216059887" duration="405000" />
+      <workItem from="1679216633212" duration="4957000" />
+      <workItem from="1679221614613" duration="4600000" />
+      <workItem from="1679234070959" duration="1153000" />
+      <workItem from="1679235287400" duration="30603000" />
+      <workItem from="1679500060689" duration="1331000" />
+      <workItem from="1679501417655" duration="33033000" />
+      <workItem from="1679632143930" duration="37314000" />
+      <workItem from="1679730185716" duration="395000" />
+      <workItem from="1679730773042" duration="433000" />
+      <workItem from="1679731303555" duration="40284000" />
+      <workItem from="1680028058362" duration="2542000" />
+      <workItem from="1680246162339" duration="91809000" />
+      <workItem from="1680595679183" duration="15845000" />
+      <workItem from="1680631788890" duration="30439000" />
+      <workItem from="1680804747460" duration="11315000" />
+      <workItem from="1680865512156" duration="40849000" />
+      <workItem from="1681236790475" duration="9978000" />
+      <workItem from="1681458647406" duration="89052000" />
+      <workItem from="1681912967587" duration="17782000" />
+      <workItem from="1682084306400" duration="49571000" />
+      <workItem from="1682411671200" duration="7987000" />
+      <workItem from="1682618787439" duration="825000" />
+      <workItem from="1682667617403" duration="8470000" />
+      <workItem from="1683007807207" duration="172000" />
+      <workItem from="1683888102162" duration="10236000" />
+      <workItem from="1683962492809" duration="22958000" />
+      <workItem from="1684575847360" duration="1339000" />
+      <workItem from="1686243032749" duration="1457000" />
+      <workItem from="1686249285138" duration="46879000" />
+      <workItem from="1686771148478" duration="5963000" />
+      <workItem from="1686852292926" duration="64657000" />
+      <workItem from="1687757903306" duration="652000" />
+      <workItem from="1688405951912" duration="4686000" />
+      <workItem from="1688666794591" duration="156174000" />
+      <workItem from="1689098688403" duration="13758000" />
+      <workItem from="1689329807394" duration="63551000" />
+      <workItem from="1689708127989" duration="18365000" />
+      <workItem from="1689877671311" duration="714000" />
+      <workItem from="1689878792695" duration="7368000" />
+      <workItem from="1690476425951" duration="2362000" />
+      <workItem from="1690796155109" duration="9750000" />
+      <workItem from="1691226957797" duration="10437000" />
+      <workItem from="1691845188694" duration="62787000" />
+      <workItem from="1692637362097" duration="7382000" />
+      <workItem from="1692871879886" duration="25679000" />
+      <workItem from="1692984871167" duration="16223000" />
+      <workItem from="1693063001498" duration="490000" />
+      <workItem from="1693063728594" duration="13566000" />
+      <workItem from="1693481878930" duration="1104000" />
+      <workItem from="1693650240929" duration="10791000" />
+      <workItem from="1696326794979" duration="11000" />
+      <workItem from="1700727881680" duration="1678000" />
+      <workItem from="1700738246187" duration="3104000" />
+      <workItem from="1700814370715" duration="45945000" />
+      <workItem from="1701260891930" duration="1735000" />
+      <workItem from="1702021407167" duration="21690000" />
+      <workItem from="1702226975384" duration="5941000" />
+      <workItem from="1702489190707" duration="1556000" />
+      <workItem from="1702620656331" duration="2431000" />
+      <workItem from="1706952911327" duration="14144000" />
+      <workItem from="1707287924033" duration="4134000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/1cv8/server.go</url>
+          <line>469</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/winsys/winsys.go</url>
+          <line>247</line>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/encryption/encryption.go</url>
+          <line>81</line>
+          <option name="timeStamp" value="957" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/encryption/encryption.go</url>
+          <line>86</line>
+          <option name="timeStamp" value="958" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/encryption/encryption.go</url>
+          <line>89</line>
+          <option name="timeStamp" value="959" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/mssql/server.go</url>
+          <line>125</line>
+          <option name="timeStamp" value="1230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/handlers/api.go</url>
+          <line>253</line>
+          <option name="timeStamp" value="1239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/repository/pudge.go</url>
+          <line>362</line>
+          <option name="timeStamp" value="1283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/cli/forms_exchange/list_tokens.go</url>
+          <line>131</line>
+          <option name="timeStamp" value="1297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/handlers/api.go</url>
+          <line>450</line>
+          <option name="timeStamp" value="1298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/handlers/api.go</url>
+          <line>414</line>
+          <option name="timeStamp" value="1300" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="client" />
+        <watch expression="m.focusIndex" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
