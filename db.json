@@ -1,0 +1,112 @@
+{
+ "db": [
+  {
+   "name": "Управление холдингом",
+   "server": "1c.telematika.local",
+   "name_on_server": "1c_nts_uh",
+   "port": "1641",
+   "uid": "47be38ed-95a8-4a86-a1e8-e205b390df26"
+  },
+  {
+   "name": "ЗУП СТМ",
+   "server": "1c.telematika.local",
+   "name_on_server": "1c_stm_zup",
+   "port": "",
+   "uid": "c1730cb9-61a1-44e5-95a3-715ec532829d"
+  },
+  {
+   "name": "БИТ ЕО",
+   "server": "1c.telematika.local",
+   "name_on_server": "tsk_buh",
+   "port": "1741",
+   "uid": "17e26e71-f543-4a1f-89bd-ac4c2551deca"
+  },
+  {
+   "name": "Документооборот",
+   "server": "1c.telematika.local",
+   "name_on_server": "1c_docob",
+   "port": "1841",
+   "uid": "e67a5de5-95c4-4eb3-b55c-171bc952dfaa"
+  },
+  {
+   "name": "[ТЕСТОВАЯ] Управление холдингом",
+   "server": "tk-test-app.telematika.local",
+   "name_on_server": "mikhailov_uh",
+   "port": "1541",
+   "uid": "98e3da25-ac64-45dc-b345-f8bd7e4fd561"
+  }
+ ],
+ "property_db": [
+  {
+   "name_user": "Михайлов_АН",
+   "password_user": "W72Du99ERvxg7uE8s-M7vZQwSO6bEg==",
+   "start_block": "21:00:00",
+   "finish_block": "21:30:00",
+   "key_unlock": "123",
+   "massage": "Планируется техническое обслуживание базы с %s до %s\n\nДля администратора:\nДля того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите \"1С:Предприятие\" с параметрами:\nENTERPRISE /S\"%s\\%s\"/CРазрешитьРаботуПользователей /UC\u003cкод разрешения\u003e",
+   "block": false,
+   "uid": "47be38ed-95a8-4a86-a1e8-e205b390df26"
+  },
+  {
+   "name_user": "Михайлов_АН",
+   "password_user": "jOwo2bjPtIN3g17bQK-ralcIcPT-VA==",
+   "start_block": "21:00:00",
+   "finish_block": "21:30:0",
+   "key_unlock": "123",
+   "massage": "Планируется техническое обслуживание базы с %s до %s\n\nДля администратора:\nДля того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите \"1С:Предприятие\" с параметрами:\nENTERPRISE /S\"%s\\%s\"/CРазрешитьРаботуПользователей /UC\u003cкод разрешения\u003e",
+   "block": true,
+   "uid": "c1730cb9-61a1-44e5-95a3-715ec532829d"
+  },
+  {
+   "name_user": "Михайлов_АН",
+   "password_user": "RGmnuorrruEbqmUvJ6IfQOzaJx5FHw==",
+   "start_block": "21:00:00",
+   "finish_block": "21:30:0",
+   "key_unlock": "123",
+   "massage": "Планируется техническое обслуживание базы с %s до %s\n\nДля администратора:\nДля того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите \"1С:Предприятие\" с параметрами:\nENTERPRISE /S\"%s\\%s\"/CРазрешитьРаботуПользователей /UC\u003cкод разрешения\u003e",
+   "block": false,
+   "uid": "17e26e71-f543-4a1f-89bd-ac4c2551deca"
+  },
+  {
+   "name_user": "Михайлов_АН",
+   "password_user": "7zsmXQ1MD5sl2o2ezpAAxR8lcCOmDg==",
+   "start_block": "21:00:00",
+   "finish_block": "21:30:0",
+   "key_unlock": "123",
+   "massage": "Планируется техническое обслуживание базы с %s до %s\n\nДля администратора:\nДля того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите \"1С:Предприятие\" с параметрами:\nENTERPRISE /S\"%s\\%s\"/CРазрешитьРаботуПользователей /UC\u003cкод разрешения\u003e",
+   "block": false,
+   "uid": "e67a5de5-95c4-4eb3-b55c-171bc952dfaa"
+  },
+  {
+   "name_user": "Михайлов_АН",
+   "password_user": "HDNDzNCRyEZEmZzmZTja72dSfh8Lag==",
+   "start_block": "21:00:00",
+   "finish_block": "21:30:0",
+   "key_unlock": "123",
+   "massage": "Планируется техническое обслуживание базы с %s до %s\n\nДля администратора:\nДля того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите \"1С:Предприятие\" с параметрами:\nENTERPRISE /S\"%s\\%s\"/CРазрешитьРаботуПользователей /UC\u003cкод разрешения\u003e",
+   "block": true,
+   "uid": "98e3da25-ac64-45dc-b345-f8bd7e4fd561"
+  }
+ ],
+ "Services": [
+  {
+   "name_server": "1c2.telematika.local",
+   "ip": "172.19.164.12",
+   "name_service": "1C:Enterprise 8.3 Server Agent (x86-64)",
+   "uid": "016dc23c-f6f7-42c1-a093-350df6ff70f7"
+  },
+  {
+   "name_server": "1c1.telematika.local",
+   "ip": "172.19.164.11",
+   "name_service": "1C:Enterprise 8.3 Server Agent (x86-64)",
+   "uid": "1ec3b00b-1643-4990-89bf-76071afde3cf"
+  },
+  {
+   "name_server": "tk-test-app.telematika.local",
+   "ip": "172.19.31.60",
+   "name_service": "1C:Enterprise 8.3 Server Agent (x86-64)",
+   "uid": "ddb9873e-c4b8-4690-a5c9-194e89573da5"
+  }
+ ],
+ "PathExe1C": "C:\\Program Files\\1cv8\\8.3.22.1709\\bin\\1cv8.exe"
+}

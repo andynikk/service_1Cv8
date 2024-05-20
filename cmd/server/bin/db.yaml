@@ -1,0 +1,168 @@
+datadbjson:
+    db:
+        - name: 01. Управление холдингом 3.2
+          server: 1c1
+          name_on_server: 1c_nts_uh
+          port: "1641"
+          uid: 66861e98-44fe-46e8-b554-fa1f72da3000
+        - name: 02. Документооборот
+          server: 1c1
+          name_on_server: 1c_docob
+          port: "1841"
+          uid: 95ed8c94-d0f9-4f81-a72f-d8fc4d58a93a
+        - name: 03. ЗУП СТМ
+          server: 1c1
+          name_on_server: 1c_stm_zup
+          port: "1541"
+          uid: f1111dfa-4bbb-4b71-ae24-705f03153e2f
+        - name: 04. БИТ Строительство
+          server: 1c1
+          name_on_server: tsk_buh
+          port: "1741"
+          uid: 9699671d-cb2e-4e59-bc94-5cf86352dc17
+        - name: 05. УХ Тестовая
+          server: tk-test-app
+          name_on_server: mikhailov_uh
+          port: ""
+          uid: 5b0b4f23-b20f-4784-a7d4-f3ea4f2e320b
+    property_db:
+        - name_user: Михайлов_АН
+          password_user: Ldy2LgpTsrNgYxR3DxuDo1bEG_aSlw==
+          start_block: "21:00:00"
+          finish_block: "21:30:00"
+          key_unlock: "123"
+          massage: |-
+            Планируется техническое обслуживание базы с %s до %s
+
+            Для администратора:
+            Для того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите "1С:Предприятие" с параметрами:
+            ENTERPRISE /S"%s\%s"/CРазрешитьРаботуПользователей /UC<код разрешения>
+          block: false
+          uid: 9699671d-cb2e-4e59-bc94-5cf86352dc17
+        - name_user: Михайлов_АН
+          password_user: Es7JWEs00eG_1muzU4XQeSXuOEhIXg==
+          start_block: "21:00:00"
+          finish_block: "21:30:00"
+          key_unlock: "123"
+          massage: |-
+            Планируется техническое обслуживание базы с %s до %s
+
+            Для администратора:
+            Для того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите "1С:Предприятие" с параметрами:
+            ENTERPRISE /S"%s\%s"/CРазрешитьРаботуПользователей /UC<код разрешения>
+          block: false
+          uid: 5b0b4f23-b20f-4784-a7d4-f3ea4f2e320b
+        - name_user: Михайлов_АН
+          password_user: 1wm-sCgfWcP8tLqBo9etFmnhOkCfdg==
+          start_block: "21:00:00"
+          finish_block: "21:30:00"
+          key_unlock: "123"
+          massage: |-
+            Планируется техническое обслуживание базы с %s до %s
+
+            Для администратора:
+            Для того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите "1С:Предприятие" с параметрами:
+            ENTERPRISE /S"%s\%s"/CРазрешитьРаботуПользователей /UC<код разрешения>
+          block: false
+          uid: 66861e98-44fe-46e8-b554-fa1f72da3000
+        - name_user: Михайлов_АН
+          password_user: Mjri345aJYRTr_HY-PfGUNyuL2S3Kg==
+          start_block: "21:00:00"
+          finish_block: "21:30:00"
+          key_unlock: "123"
+          massage: |-
+            Планируется техническое обслуживание базы с %s до %s
+
+            Для администратора:
+            Для того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите "1С:Предприятие" с параметрами:
+            ENTERPRISE /S"%s\%s"/CРазрешитьРаботуПользователей /UC<код разрешения>
+          block: false
+          uid: 95ed8c94-d0f9-4f81-a72f-d8fc4d58a93a
+        - name_user: Михайлов_АН
+          password_user: P-ZmheSir4I2mRw94KBf2-_sjJgANQ==
+          start_block: "21:00:00"
+          finish_block: "21:30:00"
+          key_unlock: "123"
+          massage: |-
+            Планируется техническое обслуживание базы с %s до %s
+
+            Для администратора:
+            Для того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите "1С:Предприятие" с параметрами:
+            ENTERPRISE /S"%s\%s"/CРазрешитьРаботуПользователей /UC<код разрешения>
+          block: false
+          uid: f1111dfa-4bbb-4b71-ae24-705f03153e2f
+services:
+    - name_server: 1c1
+      ip: 172.19.164.11
+      name_service: 1C:Enterprise 8.3 Server Agent (x86-64)
+      uid: 97b50dea-e916-4252-b004-fc6cf2f970e3
+      user: ""
+      password: NWHhiCVCfhwJpBpmVAt3XA==
+      sql_servers:
+        - description: 1c1.telematika.local
+          name: 1c1.telematika.local
+          user: sa
+          password: cGkKnNWP7oVtjTxpXz5WC-5TIuQB3akNvgk=
+    - name_server: 1c2
+      ip: 172.19.164.12
+      name_service: 1C:Enterprise 8.3 Server Agent (x86-64)
+      uid: 8befc953-896b-47af-b655-f84a78cec0e3
+      user: ""
+      password: DRBa5e6HIED2OrhdA47VPA==
+      sql_servers: []
+    - name_server: tk-test-app
+      ip: 172.19.31.60
+      name_service: 1C:Enterprise 8.3 Server Agent (x86-64)
+      uid: 501e97c0-6aa9-4c8d-b135-01eefad38827
+      user: ""
+      password: qccDZDAfqHelgjP2f6Eerw==
+      sql_servers:
+        - description: tk-test-sql1c
+          name: tk-test-sql1c
+          user: sa
+          password: GmemIov0MxuGAWfZRru5TGdAnWb1_oSqHg==
+settings:
+    pathexe1c: C:\Program Files\1cv8\8.3.20.2257\bin\1cv8.exe
+    nameuser: Михайлов_АН
+    passworduser: WszboeMevZy1GF1T7t7KWQFYhCVGbA==
+    startblock: "21:00:00"
+    finishblock: "21:30:00"
+    keyunlock: "123"
+    massage: |-
+        Планируется техническое обслуживание базы с %s до %s
+
+        Для администратора:
+        Для того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите "1С:Предприятие" с параметрами:
+        ENTERPRISE /S"%s\%s"/CРазрешитьРаботуПользователей /UC<код разрешения>
+    pathstorage: \\1c1\Backup
+    pathcopy: \\172.19.31.61\e$
+    httpport: "7171"
+    intervalservice: "5"
+    killprocesskb: "12000000"
+    controlserver: 1с1
+basesdoublecontrol:
+    - server: 1c1
+      name: 1c_docob
+      user: Михайлов_АН
+      password: 3ZtrG2iNVb0X88QKZFZqDThTcwZlPA==
+      uid: d67e95d3-e124-4d46-be36-2c1c2bc393b5
+    - server: 1c1
+      name: 1c_nts_uh
+      user: Михайлов_АН
+      password: KOcs3dcn6G0MNS_vAst8phBT3h4drg==
+      uid: 3bdbd373-8697-4de6-a3d0-82f4b6f4ff34
+    - server: 1c1
+      name: 1c_stm_zup
+      user: Михайлов_АН
+      password: 4qGJA95B_hkjbLrnd-SHgk0GnUhjNA==
+      uid: 26da388d-0257-4268-947b-bc4b23708714
+    - server: 1c1
+      name: tsk_buh
+      user: Михайлов_АН
+      password: 6KZ7rzeJTQUDQ5uy1OdyaqOjhQ1LPQ==
+      uid: 7cf890f2-18cb-456b-abcb-48a8524ae959
+    - server: tk-test-app
+      name: mikhailov_uh
+      user: Михайлов_АН
+      password: aXCoq5UOcmDsDiktno3jw3Ly5ybi9Q==
+      uid: 2695e15f-d7e7-46f7-b6d9-a80e4d57d922

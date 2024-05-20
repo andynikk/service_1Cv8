@@ -1,0 +1,129 @@
+{
+ "db": [
+  {
+   "name": "Управление холдингом",
+   "server": "1c.telematika.local",
+   "name_on_server": "1c_nts_uh",
+   "port": "1641",
+   "uid": "47be38ed-95a8-4a86-a1e8-e205b390df26"
+  },
+  {
+   "name": "ЗУП СТМ",
+   "server": "1c.telematika.local",
+   "name_on_server": "1c_stm_zup",
+   "port": "",
+   "uid": "c1730cb9-61a1-44e5-95a3-715ec532829d"
+  },
+  {
+   "name": "БИТ ЕО",
+   "server": "1c.telematika.local",
+   "name_on_server": "tsk_buh",
+   "port": "1741",
+   "uid": "17e26e71-f543-4a1f-89bd-ac4c2551deca"
+  },
+  {
+   "name": "Документооборот",
+   "server": "1c.telematika.local",
+   "name_on_server": "1c_docob",
+   "port": "1841",
+   "uid": "e67a5de5-95c4-4eb3-b55c-171bc952dfaa"
+  },
+  {
+   "name": "[ТЕСТОВАЯ] Управление холдингом",
+   "server": "tk-test-app.telematika.local",
+   "name_on_server": "mikhailov_uh",
+   "port": "1541",
+   "uid": "98e3da25-ac64-45dc-b345-f8bd7e4fd561"
+  },
+  {
+   "name": "[ПЕРЕХОД 3.2.] Управление холдингом",
+   "server": "tk-test-app.telematika.local",
+   "name_on_server": "uh_update",
+   "port": "1541",
+   "uid": "2fd7c1ed-b4f0-496d-9fb2-42f7d4c23f3c"
+  }
+ ],
+ "property_db": [
+  {
+   "name_user": "Михайлов_АН",
+   "password_user": "W72Du99ERvxg7uE8s-M7vZQwSO6bEg==",
+   "start_block": "21:00:00",
+   "finish_block": "21:30:00",
+   "key_unlock": "123",
+   "massage": "Планируется техническое обслуживание базы с %s до %s\n\nДля администратора:\nДля того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите \"1С:Предприятие\" с параметрами:\nENTERPRISE /S\"%s\\%s\"/CРазрешитьРаботуПользователей /UC\u003cкод разрешения\u003e",
+   "block": false,
+   "uid": "47be38ed-95a8-4a86-a1e8-e205b390df26"
+  },
+  {
+   "name_user": "Михайлов_АН",
+   "password_user": "1mYdVDu04-4Mu6ynlRPasYHOtW6f6A==",
+   "start_block": "21:00:00",
+   "finish_block": "21:30:00",
+   "key_unlock": "123",
+   "massage": "Планируется техническое обслуживание базы с %s до %s\n\nДля администратора:\nДля того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите \"1С:Предприятие\" с параметрами:\nENTERPRISE /S\"%s\\%s\"/CРазрешитьРаботуПользователей /UC\u003cкод разрешения\u003e",
+   "block": false,
+   "uid": "c1730cb9-61a1-44e5-95a3-715ec532829d"
+  },
+  {
+   "name_user": "Михайлов_АН",
+   "password_user": "RGmnuorrruEbqmUvJ6IfQOzaJx5FHw==",
+   "start_block": "21:00:00",
+   "finish_block": "21:30:0",
+   "key_unlock": "123",
+   "massage": "Планируется техническое обслуживание базы с %s до %s\n\nДля администратора:\nДля того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите \"1С:Предприятие\" с параметрами:\nENTERPRISE /S\"%s\\%s\"/CРазрешитьРаботуПользователей /UC\u003cкод разрешения\u003e",
+   "block": false,
+   "uid": "17e26e71-f543-4a1f-89bd-ac4c2551deca"
+  },
+  {
+   "name_user": "Михайлов_АН",
+   "password_user": "7zsmXQ1MD5sl2o2ezpAAxR8lcCOmDg==",
+   "start_block": "21:00:00",
+   "finish_block": "21:30:0",
+   "key_unlock": "123",
+   "massage": "Планируется техническое обслуживание базы с %s до %s\n\nДля администратора:\nДля того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите \"1С:Предприятие\" с параметрами:\nENTERPRISE /S\"%s\\%s\"/CРазрешитьРаботуПользователей /UC\u003cкод разрешения\u003e",
+   "block": false,
+   "uid": "e67a5de5-95c4-4eb3-b55c-171bc952dfaa"
+  },
+  {
+   "name_user": "Михайлов_АН",
+   "password_user": "xt9-6P4L8yaGYv5pcv2Ym7sDTap7vQ==",
+   "start_block": "20:00:00",
+   "finish_block": "21:30:00",
+   "key_unlock": "123",
+   "massage": "Планируется техническое обслуживание базы с %s до %s\n\nДля администратора:\nДля того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите \"1С:Предприятие\" с параметрами:\nENTERPRISE /S\"%s\\%s\"/CРазрешитьРаботуПользователей /UC\u003cкод разрешения\u003e",
+   "block": true,
+   "uid": "98e3da25-ac64-45dc-b345-f8bd7e4fd561"
+  },
+  {
+   "name_user": "Михайлов_АН",
+   "password_user": "T2mHLhIEwnbWGshDXkK3SdjYGq5lQw==",
+   "start_block": "20:00:00",
+   "finish_block": "21:30:00",
+   "key_unlock": "123",
+   "massage": "Планируется техническое обслуживание базы с %s до %s\n\nДля администратора:\nДля того чтобы разрешить работу пользователей, воспользуйтесь консолью кластера серверов или запустите \"1С:Предприятие\" с параметрами:\nENTERPRISE /S\"%s\\%s\"/CРазрешитьРаботуПользователей /UC\u003cкод разрешения\u003e",
+   "block": false,
+   "uid": "2fd7c1ed-b4f0-496d-9fb2-42f7d4c23f3c"
+  }
+ ],
+ "Services": [
+  {
+   "name_server": "1c1.telematika.local",
+   "ip": "172.19.164.11",
+   "name_service": "1C:Enterprise 8.3 Server Agent (x86-64)",
+   "uid": "ee161b91-7de8-47fd-a03d-acdabcedb42c"
+  },
+  {
+   "name_server": "1c2.telematika.local",
+   "ip": "172.19.164.12",
+   "name_service": "1C:Enterprise 8.3 Server Agent (x86-64)",
+   "uid": "27ff0977-517d-4aab-b528-968d0283d2d8"
+  },
+  {
+   "name_server": "tk-test-app.telematika.local",
+   "ip": "172.19.31.60",
+   "name_service": "1C:Enterprise 8.3 Server Agent (x86-64)",
+   "uid": "905fdfc5-bfdb-485b-8489-742c48e125d5"
+  }
+ ],
+ "PathExe1C": "C:\\Program Files\\1cv8\\8.3.20.2257\\bin\\1cv8.exe"
+}
